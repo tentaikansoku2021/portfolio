@@ -27,10 +27,23 @@ burger.addEventListener("click", () => {
         } 
     });
     burger.classList.toggle("toggle");
-    // navLinks.classList.toggle("clear");
 });
 
 nav.addEventListener("click", () => {
+    nav.classList.toggle("nav-active");
+    half.classList.toggle("nav-active");
+
+    navLinks.forEach((link,index) => {
+        if(link.style.animation) {
+            link.style.animation = "";
+        } else {
+            link.style.animation = `navLinksFade 0.5s ease forwards ${index/5+0.5}s`;
+        }
+    });  
+    burger.classList.toggle("toggle");  
+});
+
+half.addEventListener("click", () => {
     nav.classList.toggle("nav-active");
     half.classList.toggle("nav-active");
 

@@ -358,6 +358,7 @@ footer {
         opacity: 0.2;
         transition: all 0.5s ease-in-out;
         transform: translateX(-100%);
+        cursor: pointer;
     }
     
     .nav-links {
@@ -434,7 +435,7 @@ footer {
 }
 
 #contact h1 {
-    margin-top: -70px;
+    margin-top: -100px;
     margin-bottom: 20px;
 }
 #contact h2 {
