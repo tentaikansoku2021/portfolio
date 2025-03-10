@@ -236,7 +236,7 @@ nav {
 }
 
 .homepage {
-    padding-top: 60px;
+    padding-top: 10px;
     text-align: center;
     transition-duration: .4s;
 }
@@ -257,7 +257,7 @@ nav {
 
 /* contact */
 #contact {
-    margin-top: 90px;
+    margin-top: 20px;
     height: 250px;
     text-align: center;
 }
@@ -339,9 +339,10 @@ footer {
 
 
 @media screen and (max-width:768px) {
-    /* body {
-        overflow: hidden;
-    } */
+    body {
+        /* overflow: hidden; */
+        height: 100vg;
+    }
     
     .burger {
         display: block;
@@ -419,7 +420,7 @@ footer {
 
 /* works */
 #works {
-    height: 1320px;
+    height: 1440px;
 }
 
 .grid-container {
@@ -441,13 +442,13 @@ footer {
 /* contact */
 
 #contact {
-   
+    padding-top: 0px;
     height: 160px;
     text-align: center;
 }
 
 #contact h1 {
-    margin-bottom: 20px;
+    margin-top: -20px;
 }
 #contact h2 {
    font-size: 18px;
