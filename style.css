@@ -182,7 +182,7 @@ nav {
 }
 
 .grid-container {
-    margin: 80px 10px;
+    margin: 80px 10px 118px;
     display: grid;
     grid-template:
         "A A" 200px
