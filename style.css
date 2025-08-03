@@ -308,11 +308,11 @@ footer {
     top: 24px;
 }
 
+/* .toggle.burger */
 .toggle.burger span:nth-child(1) {
     transform: translateY(12px) rotate(-315deg);
 }
 
-/* .toggle.burger */
 .toggle.burger span:nth-child(2) {
     opacity: 0;
 }
@@ -420,35 +420,34 @@ footer {
 
 /* works */
 #works {
-    height: 1440px;
+    height: 100%;
+    margin-bottom: 18px;
 }
 
 .grid-container {
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 12px 0px;
 }
 
 .grid-container img {
     margin-top: 10px;
 }
-.homepage {
-    padding-top: 0px;
-}
-.homepage a {
+
+.homepage a {  
     font-size: 20px;
 }
 
 /* contact */
 
 #contact {
-    padding-top: 0px;
-    height: 160px;
+    margin-top: 8px;
+    height: 140px;
     text-align: center;
 }
 
 #contact h1 {
-    margin-top: -20px;
+    margin-top: 0px;
 }
 #contact h2 {
    font-size: 18px;
